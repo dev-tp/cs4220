@@ -18,7 +18,7 @@ countDown(5);
 // 1
 ```
 
-#### 2. (35 pts) Write a function that evaluates a letter using Promises.
+#### 2. (35 pts) Write a function that evaluates a letter using `Promise`s.
 
 If the letter is lowercase then it resolves. If the letter is uppercase then it rejects. Write another function that takes an array of letters as an argument and uses your Promise function, and is able to print the results.
 Do **NOT** write 26 `if` or `switch` statements. Meaning **NO**: `if (letter === 'A' || letter === 'B' ... || letter === 'Z')`
@@ -44,5 +44,8 @@ print('kayak'); // true
 print('canoe'); // false
 ```
 
-> **Extra Credit** (15 pts) Write a function that is able to call each of the functions in Q1-Q3 and print the answers in order. *Hint: You will need to use promises or callbacks in all the previous homework functions to achieve this.*
-> Do not use `setTimeout()` or `setInterval()` as a solution for the extra credit; **NO** credit will be given for `setTimeout()` or `setInterval()`.
+## Extra Credit
+
+(15 pts) Write a function that is able to call each of the functions in Q1-Q3 and print the answers in order. Do not use `setTimeout()` or `setInterval()` as a solution for the extra credit. **NO** credit will be given for `setTimeout()` or `setInterval()`.
+
+*Hint: You will need to use promises or callbacks in all the previous homework functions to achieve this.*
